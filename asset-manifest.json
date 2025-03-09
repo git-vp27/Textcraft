@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TextCraft/static/css/main.8bf56fc9.css",
+    "main.js": "/TextCraft/static/js/main.44a4a134.js",
+    "static/js/453.4a6d37f3.chunk.js": "/TextCraft/static/js/453.4a6d37f3.chunk.js",
+    "static/media/homepgimg.jpg": "/TextCraft/static/media/homepgimg.8bad84d56de4f6fb3da2.jpg",
+    "static/media/email.jpeg": "/TextCraft/static/media/email.bcfe7efbbbd10fdb93a2.jpeg",
+    "index.html": "/TextCraft/index.html",
+    "main.8bf56fc9.css.map": "/TextCraft/static/css/main.8bf56fc9.css.map",
+    "main.44a4a134.js.map": "/TextCraft/static/js/main.44a4a134.js.map",
+    "453.4a6d37f3.chunk.js.map": "/TextCraft/static/js/453.4a6d37f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bf56fc9.css",
+    "static/js/main.44a4a134.js"
+  ]
+}

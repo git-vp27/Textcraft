@@ -1,0 +1,33 @@
+.paraphraser, .txtsummarization, .sgchecker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    border-radius: 2vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.488);
+    height: 87vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar{
+    width: 7vw;
+    height: 90%;
+    background-color:white;
+}
+.sidebar a:nth-of-type(2) img{
+    margin-left: 2vh;
+}
+.sidebar a:nth-of-type(3) img{
+    border-radius: 50%;
+}
+.sidebar a{
+    margin: 1.5vh 0;
+}

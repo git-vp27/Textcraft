@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+/* ********************* Nav Bar ************************* */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13vh;
+  width: 100vw;
+  background-color: rgb(5, 43, 14);
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.489); */
+  box-shadow: 0 0 20px 5px #606470b5;
+}
+
+nav .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+  
+.logo div {
+  margin-left: 1.8vw;
+  /* color: rgb(242, 179, 143); */
+  color: white;
+}
+  
+nav .logo img {
+  margin-left: 2vw;
+  height: 7vh;
+}
+  
+.nav-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-left: 35vw;
+  font-size: 2.5vh;
+}
+.nav-elements .user{
+  transform: scale(1.7);
+}
+  
+.nav-elements a {
+  color: rgb(242, 179, 143);
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-menu{
+  display: none;
+}
+.nav-menu i{
+  cursor: pointer;
+  transform: scale(1.6);
+}
+
+#hamMenu-box{
+  display: none;
+  position: absolute;
+  width: 18vh;
+  background-color: white;
+  right: 20px;
+  top: 8.1vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  /* height: 200px; */
+  border-radius: 10px;
+}
+
+.hamMenu-box li{
+  list-style: none;
+  padding: 0.7vh 1vh 1vh 2vh;
+}
+.hamMenu-box li a{
+  color: black;
+  font-size: 2.3vh;
+  text-decoration: none;
+}
+.nav-menu:hover ~ #hamMenu-box, #hamMenu-box:hover{
+  display: inline-block;
+}
+#hamMenu-box a:hover{
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.495);
+}
+
+/* ********************* Section ************************* */
+section {
+  height: 87vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* section:nth-of-type(2n+1){
+  background-color: #f7f5f1;
+} */
+
+
+/* ********************* Section - Home ************************* */
+
+#home img{
+  height: 55%;
+  border-radius: 5vh;
+  margin-right: 1vw;
+  /* box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.429); */
+  box-shadow: 0 0 20px 6px #606470;
+  box-shadow: 0 0 20px 1px #000000a2;
+}
+#home{
+  /* background-color: black; */
+  justify-content: space-between;
+  padding: 0 2.5vw 0 3vw;
+  background-color: lightgray;
+}
+.home-text p{
+  color: #000;
+  padding-right: 6vw;
+  font-weight: 300;
+  text-align: justify;
+}
+#home div h1{
+  color: #000;
+  line-height: 1.28;
+  font-size: 6.5vh;
+}
+#home div h1::first-letter{
+  font-size: 9vh;
+}
+.homeheading{
+  color: rgb(5, 43, 14);
+  margin-bottom: 7vh;
+}
+
+
+/* ********************* Section - Features ************************* */
+
+.fpg{
+  flex-direction: column;
+}
+.fpg h2{
+  margin: 3vh 0;
+  font-size: 5vh;
+}
+
+.feat{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.feat>div{
+  height: 43%;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(242, 179, 143, 0.289); */
+  /* background: linear-gradient(to bottom right, rgba(242, 179, 143, 0.741), rgba(242, 179, 143, 0.259)); */
+  background: #e7ccccbd;
+  border-radius: 5vh;
+  transition: 0.2s;
+}
+.feat div a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.5vh;
+}
+.feat div img{
+  height: 80%;
+}
+.ts div img{
+  border-radius: 50%;
+}
+.feat div div{
+  height: 35%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 4vh;
+  margin-bottom: 2.5vh;
+}
+
+/* ********************* Section - About ************************* */
+#about{
+  /* padding-top: 10vh; */
+  background-color: rgba(211, 211, 211, 0.807);
+  flex-direction: column;
+  justify-content: center;
+}
+.about-head{
+  padding: 0 6vw;
+}
+.about-product{
+  padding: 0 6vw;
+  font-weight: 300;
+  text-align: justify;
+}
+.outer-box-about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95vw;
+  height: 70%;
+}
+
+.about-box{
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2vw;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0.727);
+}
+.about-box h1{
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+}
+.about-box p{
+  font-weight: 300;
+  text-align: justify;
+  font-size: 1.8vh;
+}
+.about-box h1::first-letter{
+  font-size: 17vh;
+  color: rgba(0, 0, 0, 0.414);
+}
+
+
+/* ********************* Scroll Bar ************************* */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: rgb(242, 179, 143);
+    background-color: #E7CCCC; /* Handle color */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovered */
+}
+
+/* Optional: Style the scrollbar corners */
+::-webkit-scrollbar-corner {
+    background: #f1f1f1; /* Color for corners */
+}
+
+/* ********************* Footer ************************* */
+footer{
+  background-color: rgb(5, 43, 14);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gold;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

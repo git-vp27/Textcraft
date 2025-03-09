@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* ********* Main-box ********* */
+#email-main-box{
+    background-color: lightgrey;
+}
+.main{
+    display: flex;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+/* ********* Side Bar ********* */
+
+.sidebar{
+    width: 7vw;
+    height: 90%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    margin-right: 1vw;
+}
+.sidebar img{
+    height: 8vh;
+    transition: all ease 0.3s;
+}
+.sidebar img:hover{
+    transform: scale(1.1);
+}
+
+/* ********* Email Gen Form ********* */
+.email-form{
+    width: 45%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 3vh 2vw 3vw 5vw;
+    border-radius: 2vh 0 0 2vh;
+    margin-right: 0.2vw;
+    position: relative;
+}
+
+.email-length{
+    margin-top: 3vh;
+}
+
+.email-length select, .tone select, .purpose input, .recipient input, .sender input, .impkeywords input{
+    height: 7.5vh;
+    width: 25vw;
+    border-radius: 2vh;
+    padding: 0 1vw;
+    font-weight: 500;
+    margin-bottom: 3vh;
+    outline: none;
+    background-color: #f7f5f1;
+    border: none;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.362);
+}
+.purpose input::placeholder, .recipient input::placeholder, .sender input::placeholder, .impkeywords input::placeholder{
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 600;
+}
+.purpose input, .recipient input, .sender input, .impkeywords input{
+    outline: none;
+}
+
+.purpose input:focus, .recipient input:focus, .sender input:focus, .impkeywords input:focus{
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.54);
+}
+
+.gen-btn{
+    background-color: rgba(0, 0, 0, 0.885);
+    outline: none;
+    color: white;
+    padding: 1.2vh 1.6vw;
+    border-radius: 3vh;
+    border: none;
+    cursor: pointer;
+    font-size: 2.1vh;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    position: absolute;
+    bottom: 5.8vh;
+    right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ********* Email Gen Box - O/p ********* */
+.gen-email{
+    width: 45%;
+    height: 90%;
+    background-color: white;
+    border-radius: 0 2vh 2vh 0;
+    overflow-y: auto;
+}
+
+.email-op{
+    padding: 3vh 5vw;
+}
+.email-op p{
+    font-weight: 400;
+    text-align: justify;
+}
+
+
+/* **************Responsive Code ********************** */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gen-btn{
+        font-size: 1.3vw;
+        position: absolute;
+        bottom: 4.8vh;
+        right: 4vw;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    .email-length select, .tone select, .purpose input, .recipient input, .sender input, .impkeywords input{
+        height: 7vh;
+        width: 92%;
+        border-radius: 2vh;
+        padding: 0 1vw;
+    }
+    .email-form h1{
+        font-size: 4vw;
+    }
+    .gen-btn{
+        font-size: 1.5vw;
+        position: absolute;
+        padding: 1.5vw 6vw;
+        bottom: 3vh;
+        left: 5.2vw;
+        border-radius: 2vh;
+    }
+    .email-form, .gen-email{
+        height: 95%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 470px) {
+    .main{
+        display: flex;
+        height: 87vh;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-length select, .tone select, .purpose input, .recipient input, .sender input, .impkeywords input{
+        height: 7vh;
+        width: 95%;
+        padding: 0 1vw 0 3vw;
+    }
+    .gen-btn{
+        font-size: 2.8vw;
+        position: absolute;
+        padding: 3vw 11vw;
+        bottom: 3vh;
+        left: 5.5vw;
+        border-radius: 2vh;
+    }
+    .email-form, .gen-email{
+        margin-top: 3vw;
+        height: 95%;
+        width: 90%;
+        border-radius: 2vh 2vh 0 0;
+    }
+    .gen-email{
+        border-radius: 0 0 2vh 2vh;
+        margin-bottom: 3vh;
+    }
+    .email-form h1{
+        font-size: 8vw;
+    }
+}

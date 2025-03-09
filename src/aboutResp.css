@@ -1,0 +1,127 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .outer-box-about{
+        flex-wrap: wrap;
+        padding-left: 1.8vw;
+    }
+    #about{
+        overflow-y: auto;
+        padding-top: 5vh;
+    }
+    .about-txt{
+        padding-top: 5vh;
+    }
+    .about-box{
+        width: 50%;
+        height: 37vh;
+    }
+    .about-box h1::first-letter{
+        font-size: 7.8vw;
+        color: rgba(0, 0, 0, 0.262);
+    }
+    .about-box p{
+        padding: 0 6vw 0 0;
+        font-size: 2.5vh;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+    .outer-box-about{
+        flex-wrap: wrap;
+        padding-left: 1.8vw;
+    }
+    #about{
+        overflow-y: auto;
+        padding-top: 4vh;
+    }
+    .about-txt{
+        padding-top: 5vh;
+    }
+    .about-box{
+        width: 50%;
+        height: 33vh;
+    }
+    .about-box h1::first-letter{
+        font-size: 8vw;
+        color: rgba(0, 0, 0, 0.262);
+    }
+    .about-box h1{
+        font-size: 3vw;
+    }
+    .about-box p{
+        padding: 0 6vw 0 0;
+        font-size: 2.3vw;
+    }
+    .about-product{
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .outer-box-about{
+        flex-wrap: wrap;
+        padding-left: 1.8vw;
+    }
+    #about{
+        overflow-y: auto;
+        padding-top: 4vh;
+    }
+    .about-txt{
+        padding-top: 5vh;
+    }
+    .about-box{
+        width: 50%;
+        height: 25vh;
+        padding-left: 5vw;
+    }
+    .about-box h1::first-letter{
+        font-size: 7vw;
+    }
+    .about-box h1{
+        font-size: 3vw;
+    }
+    .about-box p{
+        padding: 0 6vw 0 0;
+        font-size: 2.3vw;
+    }
+    .about-product{
+        margin-bottom: 2vh;
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 380px) {
+    
+}
+
+@media (max-width: 320px) {
+    .outer-box-about{
+        flex-wrap: wrap;
+        padding-left: 1.8vw;
+    }
+    #about{
+        overflow-y: auto;
+        padding-top: 4vh;
+    }
+    .about-txt{
+        padding-top: 5vh;
+    }
+    .about-box{
+        width: 90%;
+        height: 20vh;
+        padding-left: 5vw;
+    }
+    .about-box h1::first-letter{
+        font-size: 10vw;
+    }
+    .about-box h1{
+        font-size: 4vw;
+    }
+    .about-box p{
+        padding: 0 6vw 0 0;
+        font-size: 3vw;
+    }
+    .about-product{
+        margin-bottom: 2vh;
+        font-size: 2.5vw;
+    }
+}

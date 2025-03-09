@@ -1,0 +1,163 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* ********************* Nav Bar ************************* */
+    .nav-elements {
+        padding-left: 5vw;
+    }
+    nav .logo img {
+        height: 6vh;
+    }
+
+    /* ********************* Section - Home ************************* */
+    #home img{
+        height: 30vw;
+        margin-right: 1vw;
+    }
+    #home div h1{
+        font-size: 5vh;
+    }
+    #home div h1::first-letter{
+        font-size: 7vh;
+    }
+    .home-text p{
+        padding-right: 6vw;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 2vh;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+    /* ********************* Nav Bar ************************* */
+    .logo{
+        padding-left: 2vw;
+    }
+    .nav-elements {
+        display: none;
+    }
+    .nav-menu{
+        display: inline-block;
+        flex-grow: 2;
+        color: white;
+        text-align: end;
+        padding-right: 5vw;
+    }
+
+    /* ********************* Section - Home ************************* */
+    #home div h1{
+        font-size: 5vh;
+    }
+    #home{
+        padding: 1vh 5vw;
+        flex-wrap: wrap;
+    }
+    #home img{
+        height: 40vw;
+    }
+    .homeheading{
+        margin-bottom: 4vh;
+    }
+    #home div h1::first-letter{
+        font-size: 7vh;
+    }
+    .home-text p{
+        padding-right: 8vw;
+        font-size: 1.8vh;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 427px) {
+
+    /* ********************* Nav Bar ************************* */
+    .logo{
+        padding-left: 2vw;
+    }
+    .nav-elements {
+        display: none;
+    }
+    nav .logo img {
+        height: 6vh;
+    }
+    .nav-menu{
+        display: inline-block;
+        flex-grow: 2;
+        color: white;
+        text-align: end;
+        padding-right: 5vw;
+    }
+
+    /* ********************* Section - Home ************************* */
+    #home img{
+        height: 50vw;
+    }
+    #home div h1{
+        font-size: 4vh;
+    }
+    #home{
+        padding: 1vh 4vw;
+        flex-wrap: wrap;
+    }
+    .homeheading{
+        margin-bottom: 2.5vh;
+    }
+    #home div h1::first-letter{
+        font-size: 7vh;
+    }
+    .home-text p{
+        padding-right: 8vw;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 321px) {
+
+    /* ********************* Nav Bar ************************* */
+    .logo{
+        padding-left: 2vw;
+    }
+    .nav-elements {
+        display: none;
+    }
+    nav .logo img {
+        height: 5.5vh;
+    }
+    .logo div{
+        font-size: 2vh;
+    }
+    .nav-menu{
+        display: inline-block;
+        flex-grow: 2;
+        color: white;
+        text-align: end;
+        padding-right: 8vw;
+    }
+
+    /* ********************* Section - Home ************************* */
+    #home img{
+        height: 52vw;
+    }
+    #home div h1{
+        font-size: 4vh;
+    }
+    #home{
+        padding: 1vh 4vw;
+        flex-wrap: wrap;
+    }
+    .homeheading{
+        margin-bottom: 5vh;
+    }
+    #home div h1::first-letter{
+        font-size: 7vh;
+    }
+    .home-text p{
+        padding-right: 8vw;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 2vh;
+    }
+}
